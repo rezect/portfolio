@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  /* background-color: rebeccapurple; */
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 11%;
+  height: 40px;
+}
+
+.menu_items {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green;   */
+  height: 100%;
+}
+
+.menu_bottom {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+div.photo {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+img.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skills_title {
+  text-align: center;
+}
+
+.skills_list {
+  width: 300px;
+  margin: auto;
+}

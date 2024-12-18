@@ -14,41 +14,59 @@
 </head>
 
 <body>
-  <h2 class="hello">
+  <h1 class="hello">
     Hello, I`m Ilya
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32px" height="32px">
-  </h2>
+  </h1>
   <div class="menu">
     <div class="menu_items">
-      <button class="menu_bottom">Home</button>
+      <button class="menu_bottom" id="home-button">Home</button>
     </div>
     <div class="menu_items">
-      <button class="menu_bottom">About</button>
+      <button class="menu_bottom" id="about-button">About</button>
     </div>
     <div class="menu_items">
       <button class="menu_bottom" id="skills-button">Skills</button>
     </div>
   </div>
+
+  <!-- HOME -->
   <div class="content" id="home-section">
     <div class="photo">
-      <img class="photo" src="imgs/image.png">
+      <img class="photo" id="photo-img" src="imgs/image.png">
     </div>
     <div class="description">
       Aspiring C++ Developer | Bike Stunter 🚴‍♀️ | 19 y.o. Student
     </div>
   </div>
+
+  <!-- ABOUT -->
+  <div class="about" id="about-section">
+    <h2 class="about_title">My interests:</h2>
+    <div class="about_list">
+      <ul>
+        <li>Programming</li>
+        <li>Music</li>
+        <li>Sport</li>
+        <li>Psichology</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
   <div class="skills" id="skills-section">
-    <h2 class="skills_title">Skills</h2>
+    <h2 class="skills_title">My skills</h2>
     <div class="skills_list">
       <ul>
         <li>C++</li>
         <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
+        <li>WEB</li>
+        <li>Rust</li>
+        <li>Other</li>
       </ul>
     </div>
   </div>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>

@@ -72,11 +72,38 @@ img.photo {
   margin-bottom: 20px;
 }
 
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
 .skills_title {
   text-align: center;
+  margin: auto;
+  margin-top: 1%;
 }
 
 .skills_list {
-  width: 300px;
+  width: 200px;
+  margin: auto;  
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.about_title {
+  text-align: center;
   margin: auto;
+  margin-top: 1%;
+}
+
+.about_list {
+  width: 200px;
+  margin: auto;  
 }

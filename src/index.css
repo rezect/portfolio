@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('./fonts/Inter/Inter_18pt-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter/Inter_18pt-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('./fonts/InstrumentSans/InstrumentSans-VariableFont_wdth,wght.ttf')
+}
+
+.main_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+}

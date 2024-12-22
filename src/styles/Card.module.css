@@ -1,0 +1,53 @@
+.card {
+  position: relative;
+  background-color: rgb(217, 217, 217);
+  width: 335px;
+  height: 265px;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  /* border-radius: 5px; */
+}
+
+.card_title {
+  position: absolute;
+  font-family: 'Instrument Sans';
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.card_list {
+  position: absolute;
+  font-family: 'Inter';
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.card_text {
+  margin-top: 5px;
+  margin-bottom: 9px;
+  width: 250px;
+  height: 34px;
+}
+
+/* SPECIAL */
+
+#skills {
+  top: 80px;
+  left: 0px;
+  z-index: 3;
+}
+
+#hobbies {
+  top: 50px;
+  left: 10px;
+  z-index: 2;
+}
+
+#about {
+  top: 0px;
+  right: 10px;
+  z-index: 1;
+}

@@ -3,6 +3,7 @@ import Skills from './components/Skills'
 import Hobbies from './components/Hobbies'
 import About from './components/About'
 import BackgroundDecoration from './components/BackgroundDecoration'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </div>
         <BackgroundDecoration/>
       </div>
+      <Footer/>
     </>
   )
 }

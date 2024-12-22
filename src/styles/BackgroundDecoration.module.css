@@ -1,0 +1,31 @@
+.background_decoration {
+  position: relative;
+  bottom: 245px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.decoration_element {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.23);
+  width: 325px;
+  height: 228px;
+  transform: rotate(-50deg);
+}
+
+#element1 {
+  top: 50px;
+  left: 10px;
+}
+
+#element2 {
+  top: 80px;
+  left: 0px;
+}
+
+#element3 {
+  top: 0px;
+  right: 10px;
+}

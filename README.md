@@ -3,7 +3,7 @@
 Welcome to my personal portfolio built with React! Here, you can learn more about me, my skills, hobbies, and goals.
 
 ## Live Preview
-Check out the portfolio live at [Portfolio Link](#).
+Check out the portfolio live at [Portfolio Link](https://jirezectij.ru/).
 
 ---
 

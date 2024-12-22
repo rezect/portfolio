@@ -8,12 +8,7 @@ function About() {
           About:
         </h2>
         <ul className={styles.card_list}>
-          <li className={styles.card_item}>C/C++</li>
-          <p className={styles.card_text}>I know all the basics from pointers to multithreaded programming.</p>
-          <li className={styles.card_item}>Python:</li>
-          <p className={styles.card_text}>Numpy, pandas, mathplotlib, pytorch, bs4, requests.</p>
-          <li className={styles.card_item}>WebDev:</li>
-          <p className={styles.card_text}>I know a little bit how sites work and how to make my own one.</p>
+          <p className={styles.card_text}>My name is Ilya, I am a aspiring developer. I don't have a specific type of direction yet, but most of all I am proficient in C++. I am a second-year student at the Moscow Aviation Institute. I'm trying to find myself in this fast-paced big city. If you are interested in my skills or just want to chat, write to me in telegram - @rezect.</p>
         </ul>
       </div>
     </>

@@ -1,5 +1,5 @@
 import styles from '../styles/Footer.module.css'
-import tgLogo from '../../public/Logo.png'
+import tgLogo from '/Logo.png'
 
 function Footer() {
   return (

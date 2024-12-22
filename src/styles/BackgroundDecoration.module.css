@@ -12,7 +12,9 @@
   background-color: rgba(0, 0, 0, 0.23);
   width: 325px;
   height: 228px;
-  transform: rotate(-50deg);
+  transform: rotate(-45deg);
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #element1 {

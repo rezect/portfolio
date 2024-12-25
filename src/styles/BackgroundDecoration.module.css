@@ -13,21 +13,7 @@
   width: 325px;
   height: 228px;
   transform: rotate(-45deg);
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-#element1 {
-  top: 50px;
-  left: 10px;
-}
-
-#element2 {
-  top: 80px;
-  left: 0px;
-}
-
-#element3 {
-  top: 0px;
-  right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: opacity 0.5s ease;
 }

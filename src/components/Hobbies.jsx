@@ -3,7 +3,7 @@ import styles from '../styles/Card.module.css'
 function Hobbies() {
   return (
     <>
-      <div className={styles.card} id={styles.hobbies}>
+      <div className={styles.card} id="hobbies">
         <h2 className={styles.card_title}>
           My Hobbies:
         </h2>

@@ -3,7 +3,7 @@ import styles from '../styles/Card.module.css'
 function Skills() {
   return (
     <>
-      <div className={styles.card} id={styles.skills}>
+      <div className={styles.card} id="skills">
         <h2 className={styles.card_title}>
           Skills:
         </h2>

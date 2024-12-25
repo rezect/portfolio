@@ -1,3 +1,9 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .footer_title {
   font-family: 'Instrument Sans';
   font-size: 40px;
@@ -13,5 +19,12 @@
 }
 
 .footer_logo {
+  margin: auto 5px;
+  width: 50px;
+}
+
+.footer_logo:hover {
+  opacity: 0.8;
+  margin: auto 5px;
   width: 50px;
 }

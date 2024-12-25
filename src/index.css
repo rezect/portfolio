@@ -31,6 +31,10 @@
   }
 }
 
+body {
+  transition: opacity 0.5s ease;
+}
+
 .cards_section {
   display: flex;
   flex-direction: row;
@@ -83,4 +87,22 @@
   opacity: 0.1;
   top: 0px;
   right: 10px;
+}
+
+/* ANIMATIONS OF APPEARING */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

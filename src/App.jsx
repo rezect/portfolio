@@ -4,13 +4,21 @@ import Hobbies from "./components/Hobbies";
 import About from "./components/About";
 import BackgroundDecoration from "./components/BackgroundDecoration";
 import Footer from "./components/Footer";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function App() {
   const [activeCard, setActiveCard] = useState("about");
+  const [isLoaded, setIsLoaded] = useState(false);
 
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoaded(true), 1);
+    return () => clearTimeout(timer);
+  }, []);
+
+  document.body.style.opacity = 1;
+  
   return (
-    <>
+    <div className={`app-container ${isLoaded ? "fade-in" : ""}`}>
       <Header activeCard={activeCard} setActiveCard={setActiveCard} />
       <div className="main_section">
         <div className="cards_section">
@@ -21,7 +29,7 @@ function App() {
         <BackgroundDecoration />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

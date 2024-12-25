@@ -8,14 +8,13 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [activeCard, setActiveCard] = useState("about");
-  const [isLoaded, setIsLoaded] = useState(false);
 
+  // Add animation on page load
+  const [isLoaded, setIsLoaded] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 1);
     return () => clearTimeout(timer);
   }, []);
-
-  document.body.style.opacity = 1;
   
   return (
     <div className={`app-container ${isLoaded ? "fade-in" : ""}`}>
